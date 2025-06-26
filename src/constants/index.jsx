@@ -2,23 +2,23 @@ export const features = [
   {
     id: "0",
     icon: "/images/feature-1.png",
-    caption: "Easy integration",
-    title: "Work smarter not harder",
-    text: "With Xora, tedious tasks are history. Automation and smart processes bring your productivity to new heights. It's like having an extra cup of coffee, but without the jitters.",
+    caption: "Smarter Learning",
+    title: "Learn smarter, not harder",
+    text: "At NOVA, we remove the fluff and focus on real skills. With streamlined lessons, practical exercises, and personal mentorship, you get more value in less time — like having a coach in your pocket.",
     button: {
       icon: "/images/magictouch.svg",
-      title: "Watch the demo",
+      title: "Join a Demo Session",
     },
   },
   {
     id: "1",
     icon: "/images/feature-2.png",
-    caption: "Secure & trustworthy",
-    title: "Sleep easy, we got your back",
-    text: "Your data security is our priority. With state-of-the-art encryption and robust privacy controls, Xora helps keeps your information secure and locked up tighter than Fort Knox.",
+    caption: "Support & Guidance",
+    title: "Always here to guide you",
+    text: "You’re never learning alone. NOVA provides 24/7 access to expert mentors, peer groups, and structured feedback — so you're supported at every stage of your creative journey.",
     button: {
       icon: "/images/docs.svg",
-      title: "Read the docs",
+      title: " Explore Our Programs",
     },
   },
 ];
@@ -49,39 +49,39 @@ export const details = [
 export const faq = [
   {
     id: "0",
-    question: "How easy is it to setup Xora?",
+    question: "What topics are covered in the NOVA mentorship program?",
     answer:
-      "Absolutely! Not only you can upgrade your plan at any time but you also get a prorated discount giving you maximum value for your subscription.",
+      "We cover video editing, UI/UX design, content creation, personal branding, and more. Each topic includes hands-on mentorship and projects.",
   },
   {
     id: "1",
-    question: "Can I integrate Xora with other platforms?",
+    question: "Is NOVA suitable for beginners?",
     answer:
-      "Absolutely! Not only you can upgrade your plan at any time but you also get a prorated discount giving you maximum value for your subscription.",
+      "Absolutely! NOVA is built to help absolute beginners as well as intermediate learners grow through structured, real-world guidance.",
   },
   {
     id: "2",
-    question: "How often do you add new content?",
+    question: "How are the sessions conducted?",
     answer:
-      "Absolutely! Not only you can upgrade your plan at any time but you also get a prorated discount giving you maximum value for your subscription.",
+      "All sessions are live or recorded and accessible through your dashboard. Mentorship is personalized based on your learning pace.",
   },
   {
     id: "3",
-    question: "What your refund policy?",
+    question: "Will I receive a certificate?",
     answer:
-      "Absolutely! Not only you can upgrade your plan at any time but you also get a prorated discount giving you maximum value for your subscription.",
+      "Yes, a certificate of completion is awarded once you finish a course or mentorship series with required submissions.",
   },
   {
     id: "4",
-    question: "Do you have corporate plans?",
+    question: "Can I get 1-on-1 mentoring?",
     answer:
-      "Absolutely! Not only you can upgrade your plan at any time but you also get a prorated discount giving you maximum value for your subscription.",
+      "Yes! We offer both group sessions and 1-on-1 mentorship for deep learning and feedback.",
   },
   {
     id: "5",
-    question: "What happens when I’m out of storage?",
+    question: "Are there any free courses?",
     answer:
-      "Absolutely! Not only you can upgrade your plan at any time but you also get a prorated discount giving you maximum value for your subscription.",
+      "Yes, NOVA offers free intro courses for all main topics. Paid mentorships offer deeper insights and practical projects.",
   },
   {
     id: "6",
@@ -91,18 +91,6 @@ export const faq = [
   },
   {
     id: "7",
-    question: "How do I invite my team?",
-    answer:
-      "Absolutely! Not only you can upgrade your plan at any time but you also get a prorated discount giving you maximum value for your subscription.",
-  },
-  {
-    id: "8",
-    question: "Do you offer training for individuals and teams?",
-    answer:
-      "Absolutely! Not only you can upgrade your plan at any time but you also get a prorated discount giving you maximum value for your subscription.",
-  },
-  {
-    id: "9",
     question: "I’m locked out of my account what do I do?",
     answer:
       "Absolutely! Not only you can upgrade your plan at any time but you also get a prorated discount giving you maximum value for your subscription.",
@@ -113,13 +101,13 @@ export const plans = [
   {
     id: "0",
     title: "Core",
-    priceMonthly: 19,
-    priceYearly: 12,
+    priceMonthly: 799,
+    priceYearly: 7999,
     caption: "Best for solo creators",
     features: [
-      "100MB Cloud storage",
-      "100+ prompt templates",
-      "5 projects",
+      "Access to 1 course",
+      "Pre-recorded lessons",
+      "Basic community access",
       "24/7 support",
     ],
     icon: "/images/circle.svg",
@@ -128,14 +116,14 @@ export const plans = [
   {
     id: "1",
     title: "Overdrive",
-    priceMonthly: 79,
-    priceYearly: 59,
+    priceMonthly: 1499,
+    priceYearly: 14999,
     caption: "Most popular plan",
     features: [
-      "All Starter features",
-      "1TB additional storage",
-      "Unlimited projects",
-      "Analytics",
+      "Access to all courses",
+      "Live sessions",
+      "Certificate of completion",
+      "Private Discord",
     ],
     icon: "/images/triangle.svg",
     logo: "/images/plan-2.png",
@@ -143,13 +131,13 @@ export const plans = [
   {
     id: "2",
     title: "Team",
-    priceMonthly: 39,
-    priceYearly: 29,
+    priceMonthly: 5999,
+    priceYearly: 59999,
     caption: "Exclusively for teams",
     features: [
-      "All Overdrive features",
-      "10TB additional storage",
-      "50% off per member",
+      " Dedicated 1-on-1 sessions",
+      "Live group Q&As",
+      "15% off per member",
       "Real-time collaboration",
     ],
     icon: "/images/hexagon.svg",
@@ -160,51 +148,35 @@ export const plans = [
 export const testimonials = [
   {
     id: "0",
-    name: "Jessica Saunders",
-    role: "Globalnomads",
+    name: "Ankita D.",
+    role: "Graphic Designer",
     avatarUrl: "/images/testimonials/jessica-saunders.png",
     comment:
-      "Xora's customer support is second to none! They’re like my tech superheroes, always there when I need them.",
+      "Transformed my design skills in just 3 months! Amazing mentors and practical learning.",
   },
   {
     id: "1",
-    name: "Mark Erixon",
-    role: "Vid capital intl",
+    name: "Manoj K.",
+    role: "UI/UX Designer",
     avatarUrl: "/images/testimonials/mark-erixon.png",
     comment:
-      "I was skeptical at first, but now I can't imagine our content operations without it. It's that impactful.",
+      "Hands-on training with real projects. Now I freelance confidently!",
   },
   {
     id: "2",
-    name: "Melanie Hurst",
-    role: "Cyberleap",
+    name: "Ravi P.",
+    role: "Visual Designer",
     avatarUrl: "/images/testimonials/melanie-hurst.png",
     comment:
-      "Adopting this software was a breeze. It's made everyday tasks so much simpler.",
+      "Clear, creative, and career-focused training. Loved every single session completely.",
   },
   {
     id: "3",
-    name: "Alicia Barker",
-    role: "Cyberleap",
+    name: "Divya S.",
+    role: " Product Designer",
     avatarUrl: "/images/testimonials/alicia-barker.png",
     comment:
-      "The analytics feature is like having a personal fortune teller. It's been instrumental in guiding our business decisions.",
-  },
-  {
-    id: "4",
-    name: "Becky Snider",
-    role: "Floclips",
-    avatarUrl: "/images/testimonials/becky-snider.png",
-    comment:
-      "Switched to Xora last month, and I'm already seeing results. Best decision for our team!",
-  },
-  {
-    id: "5",
-    name: "Jim Bradley",
-    role: "Vid capital intl",
-    avatarUrl: "/images/testimonials/jim-bradley.png",
-    comment:
-      "The efficiency boost is undeniable. This platform has transformed our workflow, forever.",
+      "Great place to learn design thinking and tools. Super supportive team!",
   },
 ];
 
