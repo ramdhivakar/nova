@@ -14,7 +14,7 @@ const Hero = () => {
               Amazingly simple
             </h1>
             <p className="max-w-440 mb-14 body-1 max-md:mb-10">
-            We designed NOVA’s Graphic Design course to be easy to follow, quick to learn, and surprisingly powerful
+            We designed Aims Tech’s Graphic Design course to be easy to follow, quick to learn, and surprisingly powerful
             </p>
             <LinkScroll to="features" offset={-100} spy smooth>
               <Button icon="/images/zap.svg">Try it now</Button>

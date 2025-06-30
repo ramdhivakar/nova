@@ -4,7 +4,7 @@ export const features = [
     icon: "/images/feature-1.png",
     caption: "Smarter Learning",
     title: "Learn smarter, not harder",
-    text: "At NOVA, we remove the fluff and focus on real skills. With streamlined lessons, practical exercises, and personal mentorship, you get more value in less time — like having a coach in your pocket.",
+    text: "At Aims Tech, we remove the fluff and focus on real skills. With streamlined lessons, practical exercises, and personal mentorship, you get more value in less time — like having a coach in your pocket.",
     button: {
       icon: "/images/magictouch.svg",
       title: "Join a Demo Session",
@@ -15,7 +15,7 @@ export const features = [
     icon: "/images/feature-2.png",
     caption: "Support & Guidance",
     title: "Always here to guide you",
-    text: "You’re never learning alone. NOVA provides 24/7 access to expert mentors, peer groups, and structured feedback — so you're supported at every stage of your creative journey.",
+    text: "You’re never learning alone. Aims Tech provides 24/7 access to expert mentors, peer groups, and structured feedback — so you're supported at every stage of your creative journey.",
     button: {
       icon: "/images/docs.svg",
       title: " Explore Our Programs",
@@ -49,15 +49,15 @@ export const details = [
 export const faq = [
   {
     id: "0",
-    question: "What topics are covered in the NOVA mentorship program?",
+    question: "What topics are covered in the Aims Tech mentorship program?",
     answer:
       "We cover video editing, UI/UX design, content creation, personal branding, and more. Each topic includes hands-on mentorship and projects.",
   },
   {
     id: "1",
-    question: "Is NOVA suitable for beginners?",
+    question: "Is Aims Tech suitable for beginners?",
     answer:
-      "Absolutely! NOVA is built to help absolute beginners as well as intermediate learners grow through structured, real-world guidance.",
+      "Absolutely! Aims Tech is built to help absolute beginners as well as intermediate learners grow through structured, real-world guidance.",
   },
   {
     id: "2",
@@ -81,7 +81,7 @@ export const faq = [
     id: "5",
     question: "Are there any free courses?",
     answer:
-      "Yes, NOVA offers free intro courses for all main topics. Paid mentorships offer deeper insights and practical projects.",
+      "Yes, Aims Tech offers free intro courses for all main topics. Paid mentorships offer deeper insights and practical projects.",
   },
   {
     id: "6",
@@ -101,13 +101,13 @@ export const plans = [
   {
     id: "0",
     title: "Core",
-    priceMonthly: 799,
-    priceYearly: 7999,
-    caption: "Best for solo creators",
+    priceMonthly: 399,
+    priceYearly: 3999,
+    caption: "Logo Design",
     features: [
-      "Access to 1 course",
-      "Pre-recorded lessons",
-      "Basic community access",
+      "Website",
+      "Company",
+      "Business",
       "24/7 support",
     ],
     icon: "/images/circle.svg",
@@ -116,14 +116,14 @@ export const plans = [
   {
     id: "1",
     title: "Overdrive",
-    priceMonthly: 1499,
-    priceYearly: 14999,
-    caption: "Most popular plan",
+    priceMonthly: 499,
+    priceYearly: 1499,
+    caption: "Social Media Posters",
     features: [
-      "Access to all courses",
-      "Live sessions",
-      "Certificate of completion",
-      "Private Discord",
+      "Facebook",
+      "Instagram",
+      "Twitter",
+      "& More",
     ],
     icon: "/images/triangle.svg",
     logo: "/images/plan-2.png",
@@ -131,13 +131,13 @@ export const plans = [
   {
     id: "2",
     title: "Team",
-    priceMonthly: 5999,
-    priceYearly: 59999,
-    caption: "Exclusively for teams",
+    priceMonthly: 599,
+    priceYearly: 5999,
+    caption: "Brochures, Flyers, Posters",
     features: [
-      " Dedicated 1-on-1 sessions",
-      "Live group Q&As",
-      "15% off per member",
+      "Website",
+      "Companys",
+      "Business",
       "Real-time collaboration",
     ],
     icon: "/images/hexagon.svg",
